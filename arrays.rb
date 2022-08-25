@@ -17,3 +17,5 @@ humans = [true, true, false, false]
 #using the .unshift method adds an element in the index position
 humans.unshift(true)
 p humans
+
+#index positions numbered in example_array = [0, 1, 2, 3]
