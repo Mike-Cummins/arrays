@@ -14,8 +14,13 @@ temperatures.shift
 p temperatures
 
 humans = [true, true, false, false]
-#using the .unshift method adds an element in the index position
+#using the .unshift method adds an element in the index position.
 humans.unshift(true)
 p humans
 
 #index positions numbered in example_array = [0, 1, 2, 3]
+
+number_of_hands = [1, 2, 0, 2]
+#using the .delete method will delete the specified elements in the array.
+number_of_hands.delete(2)
+p number_of_hands
